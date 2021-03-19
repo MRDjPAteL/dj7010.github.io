@@ -1,0 +1,162 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+header{
+	height: 12vh;
+	background: #F65058FF	;
+}
+body{
+  /*background: #FBDE44FF ;*/
+  font-family: Cormorant unicase;
+  font-size: 150%;
+  font-weight: bold;
+}
+footer{
+  margin-bottom: 5px;
+  background:  #28334AFF ; 
+}
+h1,h2,h3,h4,h5,h6 {
+  background-color:#F65058FF;
+  margin:7;
+  font-family:  Cormorant unicase;
+}
+th, tr, table, thead, tbody, td {
+  padding: 7px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right:  1px solid #ddd;
+}
+th{
+  font-size: 30px;
+}
+li , ol {
+  padding: 7px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right:  1px solid #ddd;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+ol:hover {
+  background-color:#0276f2;
+}
+tr:hover {
+  background-color:#0276f2;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a:visited {
+    text-decoration: underline;
+}
+.container{
+  background-color: #FBDE44FF;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #28334AFF;
+}
+.navbar a {
+  float: left;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropdown-btn {
+  background-color: #333;
+}
+.nav-bar{
+  height: 80px;
+  font-family: Open Sans;
+  font-size: 90%;
+  font-style: italic;
+}
+.menu{
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+.menu li{
+  display: inline-block;
+  margin: 10px 5px;
+}
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+.menu li a:hover{
+  background-color: #fff;
+  transition: .4s;
+  color: #28334AFF;
+}
+.logo{
+  margin: 10px 30px;
+  height: 70px;
+}
+.col-md-6, .regbtn, .col-md-12{
+  text-align: center;
+  padding: 7px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right:  1px solid #ddd;
+}
+.panel-heading{
+  font-size: 22px;
+  text-align: center; 
+  padding: 7px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right:  1px solid #ddd;
+}
+.row{
+  align-content: center;
+  padding: 7px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right:  1px solid #ddd;
+}
+.copy-right{
+  text-align: center;
+  margin:  5px;
+}
+.copy-right a:hover {
+  color:red;
+}
+
+.footer {text-align: center;}
