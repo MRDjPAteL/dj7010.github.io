@@ -4,6 +4,7 @@ table {
 }
 header{
 	height: 12vh;
+	
 	background: #F65058FF	;
 }
 body{
@@ -81,6 +82,7 @@ a:visited {
   background-color: #FBDE44FF;
 }
 .navbar {
+	
   overflow: hidden;
   background-color: #28334AFF;
 }
@@ -125,6 +127,7 @@ a:visited {
 .logo{
   margin: 10px 30px;
   height: 70px;
+	
 }
 .col-md-6, .regbtn, .col-md-12{
   text-align: center;
