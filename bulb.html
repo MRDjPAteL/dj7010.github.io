@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practical 1.1</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="F:\WP_project\favicon.ico">
+    <link rel="stylesheet" type="text/css" href="F:\WP_project\style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <a href="index.html"><img src="Dj.png" class="logo"></a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="other.html">Other Works</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul> 
+    </div>
+  </header>
+
+<div class="container">
+  <h1>Light Bulb Experiment</h1>
+<div class="panel-heading">Click on the button and change color of light.</div>
+  <div class="panel-body">  
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "img/multi.jpg"
+  } else if (sw == 1){
+   pic = "img/red.jpg"
+  } else if (sw == 2){
+   pic = "img/blue.jpg"
+  } else if (sw == 3){
+   pic = "img/green.jpg"
+  }  else {
+    pic = "img/white.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>  
+
+<p><img id="myImage" style="margin-left: 500px; margin-right: 500px;" src="img/bulb-off.png" width="100" height="180" /></p>
+
+<p style="text-align: center;">
+<button type="button" onclick="light(0)">Multi Color<br>Light On</button>
+<button type="button" onclick="light(1)">Red Light<br>On</button>
+<button type="button" onclick="light(2)">Blue Light<br>On</button>
+<button type="button" onclick="light(3)">Green Light<br>On</button>
+<button type="button" onclick="light(4)">White Light<br>On</button>
+</p> 
+
+<div class="nxt">
+  <a href="tables.html"><img src="img/icon/bw.png" class="nxt"></a>
+  <a href="bulb.html"><img src="img/icon/rotation.png" class="nxt"></a>
+  <a href="dice.html"><img src="img/icon/fw.png" class="nxt"></a>
+</div>
+
+<div class="footer">
+  <div class="f-container">
+    <div class="col-md-3-footer-gridr">
+      <h2>About Me</h2>
+      <p>NAME:-Devik Jagani.</p>
+      <p>Enrollment No.:-190023107010.</p>
+    </div>
+    <div class="col-md-3-footer-gridl">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="other.html">Others</a></li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+      <div class="footer-bottom">
+        <a href="index.html"><img src="Dj.png" class="logo"></a>
+          <div class="col-md-4 fo-grid1">
+            <p><a href="mailto:190023107010ait@gmail.com">190023107010ait@gmail.com</a></p>
+          </div>
+          <div class="clearfix"></div>
+          
+      </div>
+    <div class="copy-right">
+      <p><a> &copy;MR._Dj.</a> All Rights Reserved | Design by:<a>MR._Dj</a></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

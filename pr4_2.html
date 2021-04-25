@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>Practical 4.3</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="F:\WP_project\favicon.ico">
+    <link rel="stylesheet" type="text/css" href="F:\WP_project\style.css">
+</head>
+<body>
+<header>
+    <div class="nav-bar">
+        <a href="index.html"><img src="Dj.png" class="logo"></a>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="other.html">Other Works</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul> 
+    </div>
+</header>
+
+<form class="container" method="POST"  onsubmit="alert('Succesfully Submited.!!')">
+        <h1>Login Form</h1>
+<div class="row">
+    <div class="col-md-6">        
+        <label for="uname"><b>User Name</b></label>
+        <input type="text" name="uname" id="uname" placeholder="Enter Your User Name" pattern="[a-zA-Z0-9@_!#$%^&*]+" required>
+        <br>
+
+        <div id="validate_uname">
+            <p id="starting" class="valid_uname">Should not strat with _ or @ or numbers*</p>
+        </div>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" name="pwd" id="pwd" placeholder="Enter Your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required>
+        <br>
+
+        <div id="validate">
+            <p id="lower" class="invalid">Contain a lowercase letters*</p>
+            <p id="capital" class="invalid">Contain a uppercase letters*</p>
+            <p id="num" class="invalid">Contain a numbers*</p>
+            <p id="length" class="invalid">Contain a minimum 6 characters*</p>
+        </div>
+
+<div class="btn-list">
+    <div class="btn-group-vertical">
+        <input type="submit" value="Submit" id="submit"> 
+    </div>
+</div>    
+</div>    
+</form>
+
+<script src="script.js"></script>
+
+<div class="nxt">
+  <a href="pr4_1.html"><img src="img/icon/bw.png" class="nxt"></a>
+  <a href="pr4_2.html"><img src="img/icon/rotation.png" class="nxt"></a>
+  <a href="pr4_3.html"><img src="img/icon/fw.png" class="nxt"></a>
+  <a href="#top"><img src="img/icon/top.png" class="top"></a>
+</div>
+
+<div class="footer">
+    <div class="f-container">
+        <div class="col-md-3-footer-gridr">
+            <h2>About Me</h2>
+            <p>NAME:-Devik Jagani.</p>
+            <p>Enrollment No.:-190023107010.</p>
+        </div>
+        <div class="col-md-3-footer-gridl">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="other.html">Others</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+            <div class="footer-bottom">
+                <a href="index.html"><img src="Dj.png" class="logo"></a>
+                    <div class="col-md-4 fo-grid1">
+                        <p><a href="mailto:190023107010ait@gmail.com">190023107010ait@gmail.com</a></p>
+                    </div>
+                    <div class="clearfix"></div>
+                    
+            </div>
+        <div class="copy-right">
+            <p><a> &copy;MR._Dj.</a> All Rights Reserved | Design by:<a>MR._Dj</a></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
