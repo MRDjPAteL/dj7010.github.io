@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="header.html">
+    <title>Media</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="F:\WP_project\favicon.ico">
+    <link rel="stylesheet" type="text/css" href="F:\WP_project\style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-bar">
+            <a href="index.html"><img src="Dj.png" class="logo"></a>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="other.html">Other Works</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul> 
+        </div>
+    </header>
+
+<body>
+    <h1>MEDIA PLAYER</h1>
+    <div class="main">
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>INTERNAL</td>
+                    <td>YOUTUBE</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <video id="myvideo" width="560" height="315" controls>
+                            <source src="img/elon-musk.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td>
+                        <iframe id="ytvideo" width="560" height="315" src="https://www.youtu.be/TvWcU3aztmo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button onclick="playPause()">Play/Pause</button>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Audio Track
+                        <audio controls>
+                            <source src="img/krishna.mp3" type="audio/mpeg">
+                          </audio>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        var myVideo = document.getElementById("myvideo");
+        function playPause() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+    </script>
+
+<div class="footer">
+    <div class="f-container">
+        <div class="col-md-3-footer-gridr">
+            <h2>About Me</h2>
+            <p>NAME:-<a>Devik Jagani.</a></p>
+            <p>Enrollment No.:-<a>190023107010.</a></p>
+        </div>
+        <div class="col-md-3-footer-gridl">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="other.html">Others</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+            <div class="footer-bottom">
+                <a href="index.html"><img src="Dj.png" class="logo"></a>
+                    <div class="col-md-4 fo-grid1">
+                        <p><a href="mailto:190023107010ait@gmail.com">190023107010ait@gmail.com</a></p>
+                    </div>
+                    <div class="clearfix"></div>
+                    
+            </div>
+        <div class="copy-right">
+            <p><a> &copy;MR._Dj.</a> All Rights Reserved | Design by:<a>MR._Dj</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
