@@ -30,6 +30,12 @@ body{
   font-family: Cormorant unicase;
   font-size: 150%;
   font-weight: bold;
+    -webkit-touch-callout: none; /* iOS Safari */
+ -webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
 }
 footer{
   margin-bottom: 5px;
