@@ -30,12 +30,12 @@ body{
   font-family: Cormorant unicase;
   font-size: 150%;
   font-weight: bold;
-    -webkit-touch-callout: none; /* iOS Safari */
- -webkit-user-select: none; /* Safari */
- -khtml-user-select: none; /* Konqueror HTML */
- -moz-user-select: none; /* Firefox */
- -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently */
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently */
 }
 footer{
   margin-bottom: 5px;
@@ -246,19 +246,21 @@ a:visited {
   padding-left: 7px;
   margin: 2px 2px;
 }
-.col-md-3-dice-gridl{
-  float: left;
-  text-align: left;
-  padding-left: 250px;
-  padding-right: 20px;
+.dice1{  
+ float: left;
+ margin-top: 30px;
+ margin-left: 200px;
+ margin-right: 110px;
 }
-.col-md-3-dice-gridr{
+.dice2{
   float: right;
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 250px;
+  margin-top: 30px;
+  margin-left: 110px;
+  margin-right: 200px;
 }
 .btn{
+  background-color: #293250;
+  color: #6DD47E;
   padding: 16px 20px;
   margin: 8px 0;
   border: 2px solid green;
@@ -266,6 +268,7 @@ a:visited {
   width: 50%;
   opacity: 0.9;
   font-size: 20px;
+  margin: 30px 0 150px 150px;  
 }
 .footer {
   text-align: center;
